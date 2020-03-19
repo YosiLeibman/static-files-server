@@ -4,12 +4,49 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>My Static Files Server</title>
+		<style>
+			* {
+				margin: 0;
+			}
+			body {
+				margin: 0;
+				height: 100vh;
+				background-color: bisque;
+			}
+			.title {
+				height: 15vh;
+				background-color: chocolate;
+				color: bisque;
+				text-align: center;
+			}
+			h1 {
+				line-height: 15vh;
+			}
+			.main{
+				height: 85vh;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			form{
+				border: 2px solid chocolate;
+				padding: 25px;
+			}
+			input{
+				width: 100%;
+				padding: 15%;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>hey y'all!!</h1>
-		<form action="/" method="post" enctype="multipart/form-data">
-			<input type="file" name="filetoupload" /><br />
-			<input type="submit" />
-		</form>
+		<div class="title">
+			<h1>hey y'all!!</h1>
+		</div>
+		<div class="main">
+			<form action="/" method="post" enctype="multipart/form-data">
+				<input type="file" name="filetoupload" /><br />
+				<input type="submit" />
+			</form>
+		</div>
 	</body>
 </html>
