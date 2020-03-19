@@ -1,0 +1,22 @@
+1. write your program - don't forget git
+
+2. push to remote repo
+
+3. inside your server:
+
+    3.1. install nodejs
+
+    3.2. install npm
+
+    3.4. clone your repo
+
+    3.4. npm i - all your packages
+
+    3.4. start your server
+
+4. for updates:
+
+    4.1 git pull
+    4.2 re-run
+
+5. for crushes: use PM2 package - move to background-service and restart the service in case of crush
